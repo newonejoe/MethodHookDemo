@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Target.Service
 {
-    public class ProcessService
+    public class ProcessService : BaseService
     {
-        public string GetProcessInfo() {
+        public override string GetProcessInfo() {
             return $"{DateTime.Now.ToString()}: This Target info.";
         }
     }

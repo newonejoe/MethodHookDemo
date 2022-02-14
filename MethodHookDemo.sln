@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookCore", "HookCore\HookCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDetour", "DotNetDetour\DotNetDetour.csproj", "{900B35A0-C116-46E2-875A-9BAB0C6D5A55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpcsHookCore", "WpcsHookCore\WpcsHookCore.csproj", "{FBDD71BB-27AF-473C-8DDA-B30F20AEBAB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{900B35A0-C116-46E2-875A-9BAB0C6D5A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{900B35A0-C116-46E2-875A-9BAB0C6D5A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{900B35A0-C116-46E2-875A-9BAB0C6D5A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDD71BB-27AF-473C-8DDA-B30F20AEBAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDD71BB-27AF-473C-8DDA-B30F20AEBAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDD71BB-27AF-473C-8DDA-B30F20AEBAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDD71BB-27AF-473C-8DDA-B30F20AEBAB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
